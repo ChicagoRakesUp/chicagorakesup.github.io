@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script type="text/javascript" src="js/stick.js"></script>
+  <script  src="js/stick.js"></script>
 </head>
 <body>
   <div class="container">
@@ -26,30 +26,39 @@
     <form>
     <div>
         <label>First Name</label>
-        <input type="text" id="mediumInput">
+        <input type="text" class="mediumInput">
     </div>
     <div>
         <label>Last Name</label>
-        <input type="text" id="mediumInput">
+        <input type="text" class="mediumInput">
     </div>
 
     <h3>Contact Information</h3>
     <div>
         <label>Email Address</label>
-        <input type="text" id="mediumInput">
+        <input type="text" class="mediumInput">
     </div>
     <div>
         <label>Phone Number</label>
-        <input type="text" id="mediumInput">
+        <input type="text" class="mediumInput">
     </div>
     <div>
         <label>Address</label>
-        <input type="text" id="largeInput">
+        <input type="text" class="largeInput">
     </div>
     <div>
         <label>Apt/Suite</label>
-        <input type="text" id="smallInput">
+        <input type="text" class="smallInput">
     </div>
+    <div>
+      <label>Reason</label>
+      <select class="largeInput">
+        <option>Request new bin</option>
+        <option>Complaint</option>
+        <option>Inquiry</option>
+        <option>Other</option>
+      </select>
+  </div>
     <div>
       <label>Message</label>
       <textarea rows="5">
@@ -81,9 +90,8 @@
         <h3>Social Media</h3>
         <ul>
           <li><a href="https://twitter.com/chicagorakesup?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @chicagorakesup</a></li>
-          <!--Change later-->
-          <li><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fchicagorakesup%2F&width=106&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId" width="106" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></li>
-      </ul>
+          <li><iframe id="fblike" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fchicagorakesup%2F&width=106&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId"></iframe></li>
+          </ul>
       </nav>
       <div id="fileTicket">
         <h3>Need Service?</h3>

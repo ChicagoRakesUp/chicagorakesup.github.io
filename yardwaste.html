@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script type="text/javascript" src="js/stick.js"></script>
+  <script src="js/stick.js"></script>
 </head>
 <body>
   <div class="container">
@@ -21,12 +21,67 @@
       </nav>
     </header>
 
-    <section id="how">
-      <h2>How do I dispose Yard Waste</h2>
+    <section  >
+      <h2>How does Chicago compare</h2>
+      <p>
+        Chicago has been trailing behind in terms of the amount of yard waste that
+        has been collected for the past decade, having recycled at its best only 17%
+        over the past decade. Whereas other cities’ recycling rates continue to rise
+        with every passing year, Chicago is the only city whose rates are constantly
+        in decline. Chicago’s line is flat; this is because although
+        the other three cities’ collection amounts are in the hundred-thousand tons,
+        Chicago’s highest collection of yard waste barely passes 5,500 tons.
+      </p>
+      <img class="chart" src="img/chart1.png" alt="Data visualization on each city’s sanitation programs.">
+      <p class="chartLabel">Amount of yard waste collected by each city’s sanitation programs from 2007 to 2016.</p>
+      <img class="chart" src="img/chart2.png" alt="Data visualization on Chicago’s yard waste collection over the past decade.">
+      <p class="chartLabel">An in-depth look at Chicago’s yard waste collection over the past decade.</p>
     </section>
 
-    <section class="graySection" id="when">
-      <h2>When does it get collected</h2>
+    <section class="blueSection" id="how">
+      <h2>Our method for removing yard waste</h2>
+      <p>The main suggestion that we propose is a system that
+        incorporates Chicago’s old system with its new system.
+        Mimicking the <strong>Portland Composts!</strong> program, a new yard
+        waste bin will be distributed to all of the households
+        in Chicago. For the peak yard waste season, which we
+        have defined as October through December, a truck
+        sponsored by <strong>Republic Services</strong> will be sent out to
+        collect all the yard waste on a weekly basis, like the
+        garbage trucks do. These  trucks that are used will be
+        the same as the ones that will be used on an on-request
+        basis. For the rest of the months of the year, the yard
+        waste truck will be sent out on an on-request basis,
+        much like the current system. </p>
+        <h3>Requesting a Yard Waste Pickup</h3>
+        <p>
+          The method for requesting yard waste pick-up will also be improved.
+          The current system instructs residents have to call 311 or fill out
+          a tedious online form to have their yard waste picked up.
+          Our suggested method aims to simplify this process. Instead having to
+          call 311 and wait to be serviced by a representative, residents call our
+          number and respond to an automated voice and requires one word commands to
+          place a request. In addition, the website form to be filled out is simplified
+          as well. When the program first rolls out, residents will register in our
+          system and indicate whether they would like only on-demand service of yard
+          waste disposal or, in addition to on-demand service, a weekly pickup service
+          during the peak yard waste season as well.
+        </p>
+    </section>
+
+    <section id="conclusion">
+      <h2>What we are hoping to achieve</h2>
+      <p>Through the implementation of the Chicago Rakes Up program,
+        we are confident that Chicago will see an increase in the
+        amount of yard waste being collected by its residents.
+        The program that we are proposing implements the the aspects
+        of Chicago’s Blue Cart Recycling Program that works, with some
+        additions to increase the overall collection of yard waste greatly.
+        In addition, residents can now be sure that they are actually
+        recycling their yard waste, since the company that we suggest
+        partnering with, company, has been shown in the past to consistently
+        and safely discard of yard waste. </p>
+        <a href="proposal.pdf" download class="solidButton">Download a copy of our propsal</a>
     </section>
 
     <footer>
@@ -51,9 +106,8 @@
         <h3>Social Media</h3>
         <ul>
           <li><a href="https://twitter.com/chicagorakesup?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @chicagorakesup</a></li>
-          <!--Change later-->
-          <li><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fchicagorakesup%2F&width=106&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId" width="106" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></li>
-      </ul>
+          <li><iframe id="fblike" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fchicagorakesup%2F&width=106&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId"></iframe></li>
+          </ul>
       </nav>
       <div id="fileTicket">
         <h3>Need Service?</h3>
