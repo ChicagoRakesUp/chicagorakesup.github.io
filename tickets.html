@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <link rel = "stylesheet" type = "text/css" href = "css/layout.css" />
-  <title>Chicago Rakes Up - Home</title>
+  <title>Chicago Rakes Up - Tickets</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -21,41 +21,43 @@
       </nav>
     </header>
 
-    <div class="container">
-    <section id="banner">
-      <div id="bannerText">
-      <h1>Free bins for Yard waste</h1>
-      <p>The city of Chicago and Something Something company is joinng hands
-        to eliminate yard waste</p>
-      <a href="yardwaste.html" class="solidButton">Learn more</a>
-      </div>
-      <div id="bannerImage">
-      <img id="bin" alt="Yard Waste Bin" src="img/bin.png">
-      </div>
-    </section>
+    <section id="ticketForm">
+    <h2>Fill out a support ticket</h2>
+    <form>
+    <div>
+        <label>First Name</label>
+        <input type="text" id="mediumInput">
+    </div>
+    <div>
+        <label>Last Name</label>
+        <input type="text" id="mediumInput">
+    </div>
 
-    <section class="blueSection" id="what">
-      <h2>What consists of Yard Waste</h2>
-      <p>Yard waste is vegetative waste resulting from the care and maintenance
-        of landscaped areas, lawns, and gardens.</p>
-      <ul class="yardWasteItems">
-      <li><img alt="Leaves" src="img/leaves.png"><p>Leaves</p></li>
-      <li><img alt="Grass Clippings" src="img/grassclippings.png"><p>Grass Clippings</p></li>
-      <li><img alt="Clippings from Shrubbery" src="img/shrubbery.png"><p>Shrubbery Clippings</p></li>
-      <li><img alt="Branches/Twigs" src="img/branches.png"><p>Branches/Twigs</p></li>
-      <li><img alt="Dirt" src="img/dirt.png"><p>Dirt</p></li>
-      <li><img alt="Rocks/Gravel" src="img/rocks.png"><p>Rocks/Gravel</p></li>
-      </ul>
-    </section>
-
-    <section id="why">
-      <h2>Why do I need a seperate bin for Yard Waste</h2>
-      <p>When yard waste decomposes in an Oxygen deprived environment like landfills, it generates Methane gas and Acidic leachate. Methane
-      is a greenhouse gas, <strong>twenty times</strong> more potent than Carbon Dioxide! If the production of Methane is not controlled, it can seep underground
-      and into nearby buildings, where it has the potential to explode. Landfills account for 18% of the total Methane production in the US. Yard waste takes up about
-      15%-20% of landfill space. </p>
-      <img alt="Data visualization on sources of methane" src="img/yardwastepolluton.png">
-    </section>
+    <h3>Contact Information</h3>
+    <div>
+        <label>Email Address</label>
+        <input type="text" id="mediumInput">
+    </div>
+    <div>
+        <label>Phone Number</label>
+        <input type="text" id="mediumInput">
+    </div>
+    <div>
+        <label>Address</label>
+        <input type="text" id="largeInput">
+    </div>
+    <div>
+        <label>Apt/Suite</label>
+        <input type="text" id="smallInput">
+    </div>
+    <div>
+      <label>Message</label>
+      <textarea rows="5">
+      </textarea>
+    </div>
+      <a href="#" class="solidButton">Submit</a>
+  </form>
+  </section>
 
     <footer>
     <div id="links">
